@@ -7,110 +7,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <aside>
-        <div class="aside-top">
-            <a class="icon-logo" href="#">
-                <div class="cirlce"></div>
-                <div class="name">Caped</div>
-            </a>
-            <div class="nav-bar-title"><span>Explore</span></div>
-            <div class="nav-bar-box">
-                <a href="#" class="nav-bar-item">
-                    <svg class="svg-1" height="512px" id="Layer_1" style="enable-background:new 0 0 512 512;"
-                        version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve"
-                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <polygon points="96,288 243,288 191.9,480 416,224 269,224 320,32 " />
-                    </svg>
-                    <span>New in</span>
-                </a>
-                <a href="#" class="nav-bar-item">
-                    <img src="./img/1.png" height="20px">
-                    <span>Clothing</span>
-                </a>
-                <a href="#" class="nav-bar-item">
-                    <img src="./img/2.png" height="20px">
-                    <span>Shoes</span>
-                </a>
-                <a href="#" class="nav-bar-item">
-                    <img src="./img/3.png" height="20px">
-                    <span>Accesoriees</span>
-                </a>
-                <a href="#" class="nav-bar-item">
-                    <img src="./img/4.png" height="20px">
-                    <span>Actiwear</span>
-                </a>
-                <a href="#" class="nav-bar-item">
-                    <img src="./img/5.png" height="20px">
-                    <span>Gifts & Living</span>
-                </a>
-                <a href="#" class="nav-bar-item">
-                    <img src="./img/6.png" height="20px">
-                    <span>Inspiration</span>
-                </a>
-            </div>
-        </div>
-        <a href="#" class="aside-bottom">
-            <div class="help-center-logo">
-                <img src="./img/help-center.png" height="25px">
-            </div>
-            <div class="text-help">
-                <span>Help Center</span>
-            </div>
-        </a>
-    </aside>
     <header>
-        <div class="header-left">
-            <div class="div-search">
-                <img src="./img/search.png" height="30px">
-                <input class="search" type="search" placeholder="Search store" required minlength="3" maxlength="30">
-            </div>
+        <div class="header_left">
+            <a class="logo" href="#"><img class="logo_img" src="./img/logo.png"> Dropbox</a>
+            <a href="#">Почему именно Dropbox?</a>
+            <a href="#">Функции</a>
+            <a href="#">Тарифные планы и цены</a>
         </div>
-        <div class="header-right">
-            <a class="links" href="#">products</a>
-            <a class="links" href="#">story</a>
-            <a class="links" href="#">manufactoring</a>
-            <a class="links" href="#">packaging</a>
-            <a class="img" href="#"><img src="./img/shop.png" height="25px"></a>
-            <a href="#"><img src="./img/profil.png" height="25px"></a>
+        <div class="header_right">
+            <a href="#">Поддержка</a>
+            <a href="#">Отдел Продаж</a>
+            <a href="#">Войти</a>
+            <button class="header_right__btn">Начать</button>
         </div>
     </header>
     <main>
-        <div class="wrapper">
-            <a class="item" href="#"><div class="item-dark"></div></a>
-            <a class="item" href="#">
-                <div class="item-dark"></div>
-                <div class="like-icon"><img src="./img/like.png"></div>
-            </a>
-            <a class="item" href="#">
-                <div class="item-dark"></div>
-                <div class="like-icon"><img src="./img/like.png"></div>
-            </a>
-            <a class="item" href="#">
-                <div class="item-dark"></div>
-            </a>
-            <a class="item" href="#">
-                <div class="item-dark"></div>
-                <div class="like-icon"><img src="./img/like.png"></div>
-            </a>
-            <a class="item" href="#">
-                <div class="item-dark"></div>
-                <div class="like-icon"><img src="./img/like.png"></div>
-            </a>
-            <a class="item" href="#">
-                <div class="item-dark"></div>
-            </a>
-            <a class="item" href="#">
-                <div class="item-dark"></div>
-            </a>
+        <div class="main_left">
+            <div class="main_top">
+                <h1>Приведите жизнь в порядок и обеспечьте продвижение рабочих проектов - и все это в едином
+                    пространстве</h1>
+                <p>В Dropbox у вас будет безопасный доступ ко всем вашим файлам. Работайте вместе с друзьями, членами
+                    семьи и коллегами - с любого устройства.</p>
+            </div>
+            <div class="main_bottom">
+                <div class="main_left__img">
+                    <img src="./img/pisces_rebrand_hero_animation-vflyzdfbq.gif">
+                </div>
+                <div class="main_right__img"></div>
+            </div>
+        </div>
+        <div class="main_right">
+            <div class="main_input">
+                <h3>Зарегистрируйтесь</h3>
+                <p>или <a href="#">Войдите в свой аккаунт</a></p>
+                <form>
+                    <input type="text" required minlength="3" max="30" placeholder="Имя">
+                    <input type="text" required minlength="3" max="30" placeholder="Фамилия">
+                    <input type="email" required minlength="3" max="30" placeholder="Эл.Адрес">
+                    <input class="last_input__pass" type="password" required minlength="3" max="30" placeholder="Пароль">
+                    <label>
+                        <input class="checkbox" type="checkbox"> <span class="checkbox_text">Я принимаю <a href="#">Условя обслуживания Dropbox</a></span>
+                    </label>
+                    <button class="registr">Зарегистрироваться</button>
+                    <button class="registr registr__google"><img src="./img/google.png"> Зарегистрироваться через Google</button>
+                </form>
+            </div>
         </div>
     </main>
-    <script src="./js/script.js"></script>
+    <script src="./основное/основное/js1.js"></script>
+    <script src="./Дополнительный/Дополнительный/js1hw.js"></script>
 </body>
 
 </html>
